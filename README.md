@@ -41,61 +41,50 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 - Clone this repository to your own computer.
 - Open the intergrated terminal within you chosen code editor.
-- If you do not have npm installed type npm init -y.
-- Open the pachage.json file and verify that their is a seed command, and a start command.
-- Open mysql within the intergrated terminal by typing mysql -u root -p, and then enter your password.
-- Once inside mysql type in: source db/schema.sql;
-- Verify that ecommerce_db is installed from the schema by typing: show databases;
-- Once verified, type: exit, to leave mysql.
-- Now we need to seed the database by typeing: npm run seed.
-- Last thing to do is to start the server by entering: npm start.
+- Open the pachage.json file and verify the terminal commands.
+- In the integrated terminal type in "npm i" to obtain nod_modules.
+- Start the server by entering: npm run dev.
 - Use Insomnia to interact with server. 
   
 ---
 
 ## Usage  
 
-To interact with the server you will need to use insomnia for the user interface.  
+To interact with the server you will need to use insomnia for the user interface.
+To interact with the database you will need to use MongoDB Compass.  
 
 ---
-### Open insomnia  
+### Getting List of all Users 
 
-![Open](/public/images/startingInsomnia.jpg)  
-
----
-### Read Product table from database  
-
-![Product](/public/images/getProducts.jpg)  
+![Get Users](/assets/images/getUsers.jpg)  
 
 ---
+### Adding a User
 
-### Read Categories Table from database  
-
-![Categories](/public/images/getCategories.jpg) 
-
----
-### Create Category 
-
-![Create Category](/public/images/createCategories.jpg)  
+![Add Users](/assets/images/addingUser.jpg)  
 
 ---
-### Create Product
 
-![Create Products](/public/images/createProduct.jpg)  
+### Updating User Data 
+
+![Updating User](/assets/images/updateMomma.jpg) 
+
+---
+### Delete User
+
+![Create Category](/assets/images/deleteUser.jpg)  
 
 ---
 
 
 ### Viedo Tutorial  
-https://drive.google.com/file/d/1n51DSva_1pPscCv8n9ExgEuIJMc_FHLQ/view
+https://drive.google.com/file/d/1ZzENZLaNXK-FVGqUWs76CrsMKR_Q0o0e/view
 
-### GitHub Repository
-https://github.com/SonnyAddison/retailServerSupport#license
+### GitHub Repository  
+https://github.com/SonnyAddison/socialNetworkAPISetUp
 ---
 ## Credits
 
-Thank you to UofA for their Starter Code on this project:
-https://ua.bootcampcontent.com/UA-Coding-Bootcamp/UofA-VIRT-FSF-PT-04-2022-U-LOLC/-/tree/main/13-ORM/02-Challenge
   
   
 ---
